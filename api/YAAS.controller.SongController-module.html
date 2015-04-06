@@ -283,26 +283,9 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="YAAS.controller.SongController.SongController-class.html#scrub_by" class="summary-sig-name">scrub_by</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a name="jump_to_next_cue"></a><span class="summary-sig-name">jump_to_next_cue</span>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">params</span>,
         <span class="summary-sig-arg">value</span>)</span><br />
-      Jumps the playhead relative to it's current position by time.</td>
-          <td align="right" valign="top">
-            <span class="codelink"><a href="YAAS.controller.SongController-pysrc.html#SongController.scrub_by">source&nbsp;code</a></span>
-            
-          </td>
-        </tr>
-      </table>
-      
-    </td>
-  </tr>
-<tr>
-    <td width="15%" align="right" valign="top" class="summary">
-      <span class="summary-type">&nbsp;</span>
-    </td><td class="summary">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr>
-          <td><span class="summary-sig"><a name="jump_to_next_cue"></a><span class="summary-sig-name">jump_to_next_cue</span>()</span><br />
       Jumps to the right, if possible.</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="YAAS.controller.SongController-pysrc.html#SongController.jump_to_next_cue">source&nbsp;code</a></span>
@@ -319,10 +302,50 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="jump_to_prev_cue"></a><span class="summary-sig-name">jump_to_prev_cue</span>()</span><br />
+          <td><span class="summary-sig"><a name="jump_to_prev_cue"></a><span class="summary-sig-name">jump_to_prev_cue</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">params</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
       Jumps to the left, if possible.</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="YAAS.controller.SongController-pysrc.html#SongController.jump_to_prev_cue">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_cue"></a><span class="summary-sig-name">set_cue</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">params</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Sets a cue at the current position</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="YAAS.controller.SongController-pysrc.html#SongController.set_cue">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="YAAS.controller.SongController.SongController-class.html#toggle_loop" class="summary-sig-name">toggle_loop</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">params</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Toggles the loop switch</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="YAAS.controller.SongController-pysrc.html#SongController.toggle_loop">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -428,7 +451,6 @@
   </tr></table>
   
   <p>Jumps the playhead relative to it's current position by time..</p>
-  <p>Stops playback</p>
   <dl class="fields">
     <dt>Parameters:</dt>
     <dd><ul class="nomargin-top">
@@ -437,29 +459,26 @@
   </dl>
 </td></tr></table>
 </div>
-<a name="scrub_by"></a>
+<a name="toggle_loop"></a>
 <div>
 <table class="details" border="1" cellpadding="3"
        cellspacing="0" width="100%" bgcolor="white">
 <tr><td>
   <table width="100%" cellpadding="0" cellspacing="0" border="0">
   <tr valign="top"><td>
-  <h3 class="epydoc"><span class="sig"><span class="sig-name">scrub_by</span>(<span class="sig-arg">self</span>,
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">toggle_loop</span>(<span class="sig-arg">self</span>,
         <span class="sig-arg">params</span>,
         <span class="sig-arg">value</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="YAAS.controller.SongController-pysrc.html#SongController.scrub_by">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="YAAS.controller.SongController-pysrc.html#SongController.toggle_loop">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
-  <p>Jumps the playhead relative to it's current position by time.</p>
-  <p>Does not stop playback</p>
+  <p>Toggles the loop switch</p>
   <dl class="fields">
-    <dt>Parameters:</dt>
-    <dd><ul class="nomargin-top">
-        <li><strong class="pname"><code>params[0]</code></strong> - beats</li>
-    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>show light on controller</dd>
   </dl>
 </td></tr></table>
 </div>
@@ -495,7 +514,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Sat Mar 28 21:04:23 2015
+    Generated by Epydoc 3.0.1 on Mon Apr  6 22:48:46 2015
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"

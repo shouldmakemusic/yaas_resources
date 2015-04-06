@@ -112,7 +112,7 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="log_parameters_for_device"></a><span class="summary-sig-name">log_parameters_for_device</span>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="YAAS.helper.DeviceHelper.DeviceHelper-class.html#log_parameters_for_device" class="summary-sig-name">log_parameters_for_device</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">device</span>)</span><br />
       Takes a live device and debugs all parameters and settings</td>
           <td align="right" valign="top">
@@ -148,8 +148,8 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="store_hash_device"></a><span class="summary-sig-name">store_hash_device</span>(<span class="summary-sig-arg">self</span>,
-        <span class="summary-sig-arg">track_id</span>,
+          <td><span class="summary-sig"><a href="YAAS.helper.DeviceHelper.DeviceHelper-class.html#store_hash_device" class="summary-sig-name">store_hash_device</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">track_index</span>,
         <span class="summary-sig-arg">device</span>)</span><br />
       Stores the device in this class</td>
           <td align="right" valign="top">
@@ -167,7 +167,8 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="get_hash_device"></a><span class="summary-sig-name">get_hash_device</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td><span class="summary-sig"><a href="YAAS.helper.DeviceHelper.DeviceHelper-class.html#get_hash_device" class="summary-sig-name">get_hash_device</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Return the currently selected hash device.</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.get_hash_device">source&nbsp;code</a></span>
             
@@ -183,7 +184,8 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="get_hash_device_helper"></a><span class="summary-sig-name">get_hash_device_helper</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td><span class="summary-sig"><a href="YAAS.helper.DeviceHelper.DeviceHelper-class.html#get_hash_device_helper" class="summary-sig-name">get_hash_device_helper</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Return the track helper for the currently selected hash device.</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.get_hash_device_helper">source&nbsp;code</a></span>
             
@@ -199,8 +201,8 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="select_current_then_select_next_hash_device"></a><span class="summary-sig-name">select_current_then_select_next_hash_device</span>(<span class="summary-sig-arg">self</span>,
-        <span class="summary-sig-arg">track_index</span>)</span><br />
+          <td><span class="summary-sig"><a href="YAAS.helper.DeviceHelper.DeviceHelper-class.html#select_current_then_select_next_hash_device" class="summary-sig-name">select_current_then_select_next_hash_device</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">track_index</span>=<span class="summary-sig-default">0</span>)</span><br />
       First call select first device that starts with '#' If the name of 
       the appointed device starts with '#' find a new '#'-device Store this
       device - from now on the first call selects this one</td>
@@ -219,8 +221,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="select_next_hash_device"></a><span class="summary-sig-name">select_next_hash_device</span>(<span class="summary-sig-arg">self</span>,
-        <span class="summary-sig-arg">track_id</span>)</span></td>
+          <td><span class="summary-sig"><a href="YAAS.helper.DeviceHelper.DeviceHelper-class.html#select_next_hash_device" class="summary-sig-name">select_next_hash_device</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">track_index</span>=<span class="summary-sig-default">0</span>)</span><br />
+      First call select first device that starts with '#' If the name of 
+      the appointed device starts with '#' find a new '#'-device Store this
+      device - from now on the first call selects this one</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.select_next_hash_device">source&nbsp;code</a></span>
             
@@ -288,6 +293,30 @@
   </td>
 </tr>
 </table>
+<a name="log_parameters_for_device"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">log_parameters_for_device</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">device</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.log_parameters_for_device">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Takes a live device and debugs all parameters and settings</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>device</code></strong> - device to debug</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
 <a name="get_currently_selected_device"></a>
 <div>
 <table class="details" border="1" cellpadding="3"
@@ -311,6 +340,128 @@
     </ul></dd>
     <dt>Returns:</dt>
         <dd>Live Device</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="store_hash_device"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">store_hash_device</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">track_index</span>,
+        <span class="sig-arg">device</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.store_hash_device">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Stores the device in this class</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>track_index</code></strong> - index of track that contains hash device</li>
+        <li><strong class="pname"><code>device</code></strong> - hash device itself</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_hash_device"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_hash_device</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.get_hash_device">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return the currently selected hash device.</p>
+  <p>If none is seleceted then the next one is searched and returned</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>Live Device</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_hash_device_helper"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_hash_device_helper</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.get_hash_device_helper">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return the track helper for the currently selected hash device.</p>
+  <p>If none is seleceted then the next one is searched and returned</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>TrackHelper</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="select_current_then_select_next_hash_device"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">select_current_then_select_next_hash_device</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">track_index</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.select_current_then_select_next_hash_device">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>First call select first device that starts with '#' If the name of the
+  appointed device starts with '#' find a new '#'-device Store this device 
+  - from now on the first call selects this one</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>track_index</code></strong> - track_index to start search from (optional)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="select_next_hash_device"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">select_next_hash_device</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">track_index</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="YAAS.helper.DeviceHelper-pysrc.html#DeviceHelper.select_next_hash_device">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>First call select first device that starts with '#' If the name of the
+  appointed device starts with '#' find a new '#'-device Store this device 
+  - from now on the first call selects this one</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>track_index</code></strong> - track_index to start search from (optional)</li>
+    </ul></dd>
   </dl>
 </td></tr></table>
 </div>
@@ -346,7 +497,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Sat Mar 28 21:04:23 2015
+    Generated by Epydoc 3.0.1 on Mon Apr  6 22:48:46 2015
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"
